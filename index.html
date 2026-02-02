@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizzaria do Jônatas</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+}
+
+header {
+    background-color: #b22222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4e1d2;
+}
+
+.info p {
+    margin: 5px;
+    font-size: 16px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.cardapio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.pizza {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.pizza img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pizza h3 {
+    margin: 10px 0 5px;
+}
+
+.pizza p {
+    margin: 5px 0;
+}
+
+.preco {
+    font-size: 20px;
+    color: #b22222;
+    font-weight: bold;
+}
+
+.whatsapp {
+    text-align: center;
+    margin: 30px;
+}
+
+.whatsapp a {
+    background-color: #25d366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍕 Pizzaria do Jônatas 🍕</h1>
+    <p>Sabor que conquista!</p>
+</header>
+
+<div class="info">
+    <p>📍 Rua Santa Luzia, Nº 345</p>
+    <p>📲 WhatsApp: (11) 98253-2237</p>
+</div>
+
+<div class="container">
+    <h2 style="text-align:center;">Nosso Cardápio</h2>
+
+    <div class="cardapio">
+
+        <div class="pizza">
+            <img src="https://images.unsplash.com/photo-1601924582975-7d33c0c06f8f" alt="Pizza Calabresa">
+            <h3>Pizza Calabresa</h3>
+            <p>Calabresa, cebola e mussarela</p>
+            <p class="preco">R$ 39,90</p>
+        </div>
+
+        <div class="pizza">
+            <img src="https://images.unsplash.com/photo-1548365328-9a3b8d36d3bb" alt="Pizza Mussarela">
+            <h3>Pizza Mussarela</h3>
+            <p>Mussarela, molho e orégano</p>
+            <p class="preco">R$ 36,90</p>
+        </div>
+
+        <div class="pizza">
+            <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a1b" alt="Pizza Frango">
+            <h3>Pizza Frango com Catupiry</h3>
+            <p>Frango desfiado e catupiry</p>
+            <p class="preco">R$ 42,90</p>
+        </div>
+
+        <div class="pizza">
+            <img src="https://images.unsplash.com/photo-1604382355076-af4b0eb60143" alt="Pizza Portuguesa">
+            <h3>Pizza Portuguesa</h3>
+            <p>Presunto, ovo, cebola e azeitona</p>
+            <p class="preco">R$ 44,90</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="whatsapp">
+    <a href="https://wa.me/5511982532237" target="_blank">
+        📲 Pedir pelo WhatsApp
+    </a>
+</div>
+
+<footer>
+    <p>© 2026 - Pizzaria do Jônatas</p>
+</footer>
+
+</body>
+</html>
